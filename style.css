@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2? family= Alexandria:wght@300 & family= Kanit & family= Nunito:wght@200 & family= Roboto+Condensed:wght@300 & exibir=trocar');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 100%;
+    line-height: 1.6rem;
+    letter-spacing: 0.004em;
+    color: #474a51;
+    background-color: #F3EFEF;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(82, 33, 102);
+    padding: 24px;
+}
+
+.logo{
+    vertical-align: middle;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto Condensed', sem serifa;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Roboto Condensed', sem serifa;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: 0.4px solid gray;
+}
+
+.whatsapp {
+    position: fixed;
+    top: 82%;
+    right: 1%;
+    padding: 10px;
+    z-index: 10000000;
+}
+
